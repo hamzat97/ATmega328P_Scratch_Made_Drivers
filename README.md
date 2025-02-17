@@ -28,39 +28,44 @@ This repository contains :
 
 ```
 ├── Documentation.pdf
-├── Source_Code
-│   ├── GPIO
+├── ATmega328P_AG_Datasheet.pdf
+├── GPIO
+│   ├── Driver
 │   │   ├── gpio.h
 │   │   ├── gpio.c
 │   │   └── app_gpio.c
 │   │   └── app_gpio.elf
 │   │   └── app_gpio.hex
-│   ├── ADC
+│   ├── Schematic
+│   │   ├── Schematic_GPIO.dsn
+├── ADC
+│   ├── Driver
 │   │   ├── adc.h
 │   │   ├── adc.c
 │   │   └── app_adc.c
 │   │   └── app_adc.elf
 │   │   └── app_adc.hex
-│   ├── Timers
+│   ├── Schematic
+│   │   ├── Schematic_ADC.dsn
+├── TIMER1
+│   ├── Driver
 │   │   ├── timer1.h
 │   │   ├── timer1.c
 │   │   └── app_timer1.c
 │   │   └── app_timer1.elf
 │   │   └── app_timer1.hex
-│   ├── UART
+│   ├── Schematic
+│   │   ├── Schematic_TIMER1.dsn
+├── UART
+│   ├── Driver
 │   │   ├── uart.h
 │   │   ├── uart.c
 │   │   └── app_uart_transmitter.c
-│   │   └── app_uart_receiver.c
 │   │   └── app_uart_transmitter.elf
 │   │   └── app_uart_transmitter.hex
+│   │   └── app_uart_receiver.c
 │   │   └── app_uart_receiver.elf
 │   │   └── app_uart_receiver.hex
-├── Schematics
-│   ├── Schematic_GPIO.dsn
-│   ├── Schematic_ADC.dsn
-│   ├── Schematic_TIMER1.dsn
-│   └── Schematic_UART.dsn
 └── README.md
 ```
 
