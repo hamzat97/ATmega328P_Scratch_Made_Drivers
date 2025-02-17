@@ -66,6 +66,8 @@ This repository contains :
 │   │   └── app_uart_receiver.c
 │   │   └── app_uart_receiver.elf
 │   │   └── app_uart_receiver.hex
+│   ├── Schematic
+│   │   ├── Schematic_UART.dsn
 └── README.md
 ```
 
