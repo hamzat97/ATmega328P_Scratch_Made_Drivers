@@ -125,8 +125,7 @@ avr-objcopy -O ihex -R .eeprom APP GPIO.elf APP GPIO.hex
 
 Upload the code to the simulated ATmega328P in the prepared schematic or flash your Arduino Uno with AVRDude, as shown below.
 
-![image](https://github.com/user-attachments/assets/7f1c032e-c84a-44b6-af16-9591e76944ab)
-
+![SCREEN_GITHUB](https://github.com/user-attachments/assets/83a1ebca-8cb8-40e7-8e5e-9bbd62f5a59e)
 
 **4.** Test the functionality using the provided Proteus schematics.
 
